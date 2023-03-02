@@ -1,0 +1,117 @@
+
+* { color: black;
+}
+
+header {
+  background: aquamarine;
+  bottom: auto;
+  width: auto;
+  clear: both;
+  content: '';
+  display: flex;
+  justify-content: center;
+}
+body {
+  background: mediumseagreen;
+}
+
+.imagen {
+  margin: 0;
+  padding: 1%;
+  background: mediumseagreen;
+}
+
+img {
+  border-radius: 50% 20% / 10% 40%;
+  border: 5px solid black;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+ #educa h2 {
+  text-align: center;
+  background-color:lightseagreen;
+}
+#expe h2 {
+  text-align: center;
+  background: lightseagreen;
+} 
+
+#apti h2 {
+  text-align: center;
+  background: lightseagreen;
+}
+
+.menu {
+  justify-content: center;
+  max-width: 960px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+
+.datos {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: mediumseagreen;
+  padding: 5%;
+  
+}
+.educa {
+  background: mediumseagreen;
+  padding: 5%;
+  padding-bottom: 60%;
+}
+
+.expe {
+  background: mediumseagreen;
+  padding: 5%;
+  padding-bottom: 60%;
+}
+
+.apti {
+  background: mediumseagreen;
+  text-align: justify;
+  padding: 5%;
+  padding-bottom: 60%;
+}
+
+p {
+  font: bold;
+  font-size: large;
+}
+nav a {
+  list-style: none;
+  margin-left: 75px;
+  padding: 12px 0;
+  float: left;
+  position: center;
+  font: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav a::before {
+  display: block;
+  content: '';
+  width: 0%;
+  background: mediumseagreen;
+  height: 5px;
+  top: 0;
+  position: absolute;
+  transition: width 0.2s;
+}
+
+nav a:hover::before {
+  width: 10%;
+}
